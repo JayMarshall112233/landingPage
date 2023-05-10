@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    
 }
 
 header {
@@ -16,6 +19,7 @@ header h3 {
     color: #F9FAF8;
 }
 
+
 header ul {
     display: flex;
     gap: 30px;
@@ -30,4 +34,53 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+img {
+    width: 450px;
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 130px;
+    padding-bottom: 90px;
+    background-color: #1F2937;
+}
+
+.introleft, .introright {
+    width: 35%;
+}
+
+.introleft {
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    
+    
+}
+
+.introleft h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Roboto;
+}
+
+.introleft p {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.introleft button {
+    width: 100px;
+    padding: 7px 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border: none;
 }
