@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    height: 6vh;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
