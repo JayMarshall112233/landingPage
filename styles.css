@@ -84,3 +84,31 @@ img {
     color: #F9FAF8;
     border: none;
 }
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 350px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.infocontainer > div {
+    width: 15%;
+}
+
+.infocontainer img {
+    width: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info h2 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+}
