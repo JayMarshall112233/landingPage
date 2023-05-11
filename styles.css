@@ -143,4 +143,35 @@ img {
     color: #1F2937;
 }
 
+.signup {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup > div {
+    height: 50%;
+    width: 75%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.signup-text {
+    color: #F9FAF8;
+    width: 65%;
+    margin-left: 250px;
+}
+
+.button > button {
+    border: solid 2px #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
 
